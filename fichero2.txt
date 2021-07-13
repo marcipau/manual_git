@@ -1,0 +1,2 @@
+git init --> crea un repositorio
+git status  --> muestra el estado del repositorio
