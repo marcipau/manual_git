@@ -1,2 +1,18 @@
 git init --> crea un repositorio
 git status  --> muestra el estado del repositorio
+
+git add .    --> registra los ficheros y los dejja a punto de commitear. El punto indica que recoge todos los ficheros del directorio
+
+git config --global user.email "xxx@xx.xxx" esto asocia a un git el usuario con el que se asocia
+git config --global user.name "jordi" esto asocia a un git el nombre del usuario 
+
+
+
+git log  --> muestra el historial de los commits producidos. En la parte superior est´s el último y en la parte inferior el más antiguo.
+
+
+como asociar nuestro repositorio remoto a nuestro repositorio local
+Utilizaremos el comando remote. Con add indicamos que estmos asociando nuetro repositorio remoto
+origin es el nombre que le damos a nuestro repositorio. Podemos darle cualquier otro nombre, pero normalmente se llama así.
+A continuación viene la url del repositorio
+git remote add origin https://github.com/marcipau/manual_git.git
